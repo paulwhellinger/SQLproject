@@ -7,7 +7,15 @@ Using SQL, I aim to explore various aspects such as sales trends over time, peak
 on sales performance. This project demonstrates the use of SQL for practical business analysis by transforming raw transactional data into 
 actionable insights that can inform sales strategy, optimize operations, and support data-driven decision-making.
 
-## Prepare 
+## Prepare
+
+This dataset is from a fictious coffee company based in NY city, which has 3 locations throughout the city. The entries are from Jan 1st 2023 to Jun 30th 2023. This is a
+fictious dataset that is meant as an example for data analysist to practice their analysis processes on. Due to this fact, I won't look too vigously into whether or not the data
+ROCCCs (is it reliable, origional, clear, consist, and citied). The dataset was created by Maven Analytics. We will still check the data to make sure whether or not the data
+is useable in its current state or if it needs to be cleaned.
+
+ 
+## Process 
 
 The dataset is contained in a single .xlsx file that I converted to a .csv file. The .csv file was then uplaoded to BigQuery for analysis using 
 SQL.

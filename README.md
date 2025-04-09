@@ -12,7 +12,7 @@ actionable insights that can inform sales strategy, optimize operations, and sup
 The dataset is contained in a single .xlsx file that I converted to a .csv file. The .csv file was then uplaoded to BigQuery for analysis using 
 SQL.
 
-I first wanted to check the data for any Null values.
+I first wanted to check the data for any NULL values.
 
 ```sql
 SELECT
@@ -30,7 +30,28 @@ SELECT
 FROM `my-project-1178-441803.Coffee_Shop_Sales.Coffee_Shop_Sales`;
 ```
 
-
 | null_transaction_id | null_transaction_date | null_transaction_time | null_transaction_qty | null_store_id | null_store_location | null_product_id | null_unit_price | null_product_category | null_product_type | null_product_detail |
 |---------------------|-----------------------|-----------------------|----------------------|---------------|---------------------|-----------------|-----------------|-----------------------|-------------------|---------------------|
 | 0                   | 0                     | 0                     | 0                    | 0             | 0                   | 0               | 0               | 0                     | 0                 | 0                   |
+
+As we can see from the chart there are no NULL values in the dataset.
+Now let's check to see if there are any duplicate entries. 
+
+```sql
+SELECT transaction_id, COUNT(*)
+FROM `my-project-1178-441803.Coffee_Shop_Sales.Coffee_Shop_Sales`
+GROUP BY transaction_id
+HAVING COUNT(*) > 1;
+```
+After running the query there was no data displayed meaning there were no duplicate entries.
+Next let's check for any invalid or out-of-range values. We'll specifically look at the transaction quanty and unit prices. Any negative 
+quantities in these columns would be considered invalid. 
+```sql
+SELECT *
+FROM my-project-1178-441803.Coffee_Shop_Sales.Coffee_Shop_Sales
+WHERE transaction_qty <= 0 OR unit_price <= 0;
+``` 
+Once again no data was displayed after running the query, so we know that we don't have any invalid or out-of-range values for these columns
+The data seems validated enough to continue on with our analysis of it. 
+
+## 

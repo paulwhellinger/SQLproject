@@ -329,5 +329,28 @@ Both of these charts show the same relationship between unit_price and total_qty
 The customer's clearly enjoyed higher quality products. This relationship seems to be stronger when it comes to coffee products but it also mostly holds true for the tea products.
 
 ## Share
+The following figures were created using Tableau 
+![Sheet 11 (1)](https://github.com/user-attachments/assets/673cccde-8060-422b-82a8-c36da50811fb)
+#### Figure One: Transaction Timeline
+![Dashboard 1](https://github.com/user-attachments/assets/dfd8d290-8c91-463c-8f3f-30ae0f074422)
+#### Figure Two: Transaction Totals by Weekday
+![Sheet 1](https://github.com/user-attachments/assets/71388892-4927-4cbd-a4cf-377021781dc6)
+#### Figure Three: Transaction Totals vs Unit Price (excludes some data points from bagged coffee)
+
+### Findings:
+- Fig 1: The amount of transactions and total revenue of all products increased greatly from the first three months of the year to the next three months. The lowest earning month was February and the highest was June. 
+-Fig 2: The weekdays performed marginally better than the weekend. The highest preforming days were Monday and Friday and the lowest preforming days were Saturday and Sunday. This is only marginal though. Monday, the highest grossing day, had about 14.55% of total sales while Sunday, the lowest, made up about 13.87% of total sales.
+-Fig 3: As unit price increased, total revenue also increased. Total amounts sold varied but there was a clear positive relationship between unit price of the coffees and the total revenue from those products. 
+
+## Act
+
+- The findings show that coffee products, particularly espresso drinks and higher quality coffee drinks, were the highest drivers of revenue. When it came to coffee products there was also a correlation between unit prices and revenue; the higher the price, the higher the revenue. These coffee shop seem to be servering a clientele that doesn't mind, and if anything wishes, to pay more for higher quality. Expanding espresso drinks or more premium coffee options could drive further revenue gains. 
+
+- Weekdays were slightly busier than weekend days. Also, the summer early summer months were much busier than the beginning of the year. Both of these facts will be important to note when determining appriorate levels of staffing for each day/month.  
+
+- Although rare, there were great revenue seen by the purchase of bagged coffee on some frequent occasions. If more local cafes or coffee shops were interested in buying large quantities of coffee beans, a shift in business practice towards catering to these clientele could be very profitable.  
+ 
+
+
 
 

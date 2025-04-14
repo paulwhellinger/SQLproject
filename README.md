@@ -4,7 +4,7 @@ In this project, I will analyze a dataset of a Coffee shop's sales to uncover sa
 transaction dates, timestamps, locations, and product details.
 
 Using SQL, I aim to explore various aspects such as sales trends over time, peak sales periods, product popularity, and the impact of location
-on sales performance. This project demonstrates the use of SQL for practical business analysis by transforming raw transactional data into 
+on sales performance. This project demonstrates the use of SQL and Excel for practical business analysis by transforming raw transactional data into 
 actionable insights that can inform sales strategy, optimize operations, and support data-driven decision-making.
 
 ## Prepare

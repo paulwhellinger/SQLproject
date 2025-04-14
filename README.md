@@ -10,6 +10,7 @@ actionable insights that can inform sales strategy, optimize operations, and sup
 ## Prepare
 
 This dataset, created by Maven Analytics, comes from a fictitious coffee company based in New York City, with three locations across the city. It covers entries from January 1st, 2023, to June 30th, 2023. The dataset is designed as a practice tool for data analysts to apply and refine their analysis skills. Since it is fictional, I won’t be focusing on evaluating whether the data fully meets the ROCCCs criteria (Reliable, Original, Clear, Consistent, and Cited). However, I will still assess whether the data is usable in its current form or if it needs to be cleaned. The dataset can be found here: https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales/data?status=pending
+
 There is no unit given for the retail price of the products. We will assume it is in USD. 
  
 ## Process 
